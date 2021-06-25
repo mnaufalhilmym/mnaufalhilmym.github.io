@@ -1,0 +1,37 @@
+body {
+    background: #f1f0eb;
+    text-align: center;
+    color: #f1f0eb;
+}
+
+a {
+    color: inherit;
+}
+
+.content {
+    color: black;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text-hello {
+    font-size: 10vw;
+    font-weight: bold;
+    margin: 0;
+}
+
+.text-link {
+    font-size: 5vw;
+    margin: 0;
+}
+
+footer {
+    color: inherit;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%) translateY(-20%);
+}
